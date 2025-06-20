@@ -1,10 +1,10 @@
 # SEO content
 
-title : The Palette Keeper App
-tagline: Search for, learn about, and organize professional watercolor paints  
-description: Search thousands of professional watercolor paints and compare based on paint properties like transparency, granulation and more. Mirror your paint palette in the app, so you never forget a paint. Bring your watercolor painting ideas to life with Palette Keeper!
-url: https://www.palettekeeper.com
-logo: assets/appicon.png
+title : Smarty Paints! - The Watercolor App
+tagline: Watercolor paints, simplified - track what you own, find close-enough dupes, and finally remember which blue is *that* blue  
+description: Watercolor paints, simplified - track what you own, find close-enough dupes, and finally remember which blue is *that* blue. Browse 3000+ paints, find dupes across brands, create drag-and-drop palettes, and never buy the same paint twice. Palette Keeper is now Smarty Paints!
+url: https://smartypaints.app
+logo: assets/smarty_paints_icon.png
 facebook:
   username: 61555513576494
 
@@ -12,7 +12,7 @@ facebook:
 # Page content
 
 #page title
-page_title                                : Palette Keeper                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Smarty Paints!                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 6472111419                             # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -23,10 +23,10 @@ playstore_link                            : https://play.google.com/store/apps/d
 presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Palette Keeper                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/smarty_paints_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Smarty Paints!                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Search for, learn about, and organize professional watercolor paints
+app_description                           : Watercolor paints, simplified - track what you own, find close-enough dupes, and finally remember which blue is *that* blue
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -46,11 +46,15 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : I love this app!! It’s so fun to keep track of everything!! 🤩
+  - title                                 : "oh wow 🤩 ... I'm really impressed. I always struggle in workshops when they use another brand than me to find the matching color in my brand. THANK YOU 😘🥰😘"
+    description                           : Iris S.
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+  - title                                 : I love this app!! It's so fun to keep track of everything!! 🤩
     description                           : Michelle S.
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
-  - title                                 : I used the app this morning to see if I had a color that matched the one used in the tutorial I was watching. Thankfully I had one that was almost perfect. So it’s a very handy app. 😊 
+  - title                                 : I used the app this morning to see if I had a color that matched the one used in the tutorial I was watching. Thankfully I had one that was almost perfect. So it's a very handy app. 😊 
     description                           : Barbara H.
     fontawesome_icon_name                 : 
 
@@ -69,7 +73,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/header.jpg                  # Replace with alternative image path or image URL.
+cover_image                               : assets/smarty_paints_banner.jpg                  # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.3
 
