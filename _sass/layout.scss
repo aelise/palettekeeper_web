@@ -376,6 +376,96 @@ nav > ul li a:active {
 
 
 
+// Update Notice Styling
+
+.updateNoticeContainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.updateNotice {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	border-radius: 20px;
+	padding: 25px 35px;
+	max-width: 600px;
+	width: 100%;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.updateIcon {
+	font-size: 3rem;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.updateText {
+	flex: 1;
+}
+
+.updateText h3 {
+	color: #fff;
+	margin: 0 0 8px 0;
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+.updateText p {
+	color: rgba(255, 255, 255, 0.9);
+	margin: 0;
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+@media only screen and (max-width: 768px) {
+	.updateNoticeContainer {
+		margin-top: 40px;
+		margin-bottom: 15px;
+	}
+
+	.updateNotice {
+		flex-direction: column;
+		text-align: center;
+		padding: 20px 25px;
+	}
+
+	.updateIcon {
+		margin-right: 0;
+		margin-bottom: 15px;
+		font-size: 2.5rem;
+	}
+
+	.updateText h3 {
+		font-size: 2rem;
+	}
+
+	.updateText p {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.updateNotice {
+		padding: 18px 20px;
+	}
+
+	.updateText h3 {
+		font-size: 1.8rem;
+	}
+
+	.updateText p {
+		font-size: 1.4rem;
+	}
+}
+
+
+
 // iPhone Device Preview
 
 .iphonePreview {
