@@ -1,10 +1,11 @@
-# Groutr App Homepage
-**The ultimate grout color simulator for artists**
+# Smarty Paints! App Homepage
+**Watercolor paints, simplified - track what you own, find close-enough dupes, and finally remember which blue is *that* blue**
 
 Includes links to the app stores and a video demo. 
 
-https://groutr.app/
+https://smartypaints.app
 
+Palette Keeper is now Smarty Paints!
 
 
 

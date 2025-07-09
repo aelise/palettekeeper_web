@@ -39,11 +39,12 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 876px auto auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
+		"n n n n n n n n n n n n"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -56,7 +57,7 @@
 @media only screen and (max-width: 768px) {
 
 	.container {					// Set up the container for the site content
-		grid-template-rows: 80px 811px auto auto;
+		grid-template-rows: 80px 811px auto auto auto;
 	}
 }
 
@@ -65,11 +66,12 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
+		grid-template-rows: 115px auto auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
+			"n n n n n n n n n n n n"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
@@ -376,6 +378,98 @@ nav > ul li a:active {
 
 
 
+// Update Notice Styling
+
+.updateNoticeContainer {
+	grid-area: n;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.updateNotice {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(135deg, #20B2AA 0%, #1E90FF 100%);
+	border-radius: 20px;
+	padding: 25px 35px;
+	max-width: 800px;
+	width: 100%;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.updateIcon {
+	font-size: 3rem;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.updateText {
+	flex: 1;
+}
+
+.updateText h3 {
+	color: #fff;
+	margin: 0 0 8px 0;
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+.updateText p {
+	color: rgba(255, 255, 255, 0.9);
+	margin: 0;
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+@media only screen and (max-width: 768px) {
+	.updateNoticeContainer {
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.updateNotice {
+		flex-direction: column;
+		text-align: center;
+		padding: 20px 25px;
+	}
+
+	.updateIcon {
+		margin-right: 0;
+		margin-bottom: 15px;
+		font-size: 2.5rem;
+	}
+
+	.updateText h3 {
+		font-size: 2rem;
+	}
+
+	.updateText p {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.updateNotice {
+		padding: 18px 20px;
+	}
+
+	.updateText h3 {
+		font-size: 1.8rem;
+	}
+
+	.updateText p {
+		font-size: 1.4rem;
+	}
+}
+
+
+
 // iPhone Device Preview
 
 .iphonePreview {
@@ -479,7 +573,7 @@ nav > ul li a:active {
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
-	margin-top: 93px;
+	margin-top: 20px;
 }
 
 .feature {
@@ -538,7 +632,7 @@ nav > ul li a:active {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin-top: 11px;
+		margin-top: 0px;
 	}
 
 	.feature {
